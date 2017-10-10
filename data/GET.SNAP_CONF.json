@@ -1,0 +1,14 @@
+{
+  "01": {
+    "mess": "Data entered",
+    "numId": "01",
+    "rect": {
+      "y": 500,
+      "h": 2000
+    }
+  },
+  "02": {
+    "mess": "Back to passes",
+    "numId": "02"
+  }
+}

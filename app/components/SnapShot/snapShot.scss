@@ -1,0 +1,25 @@
+.c-snap-shot {
+  margin: 10px;
+  background-color: #e2e2e2;
+  border-radius: 5px;
+
+  &__link {
+    text-decoration: none;
+    color: black;
+  }
+
+  &__inner {
+  }
+
+  &__img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  &__desc {
+  }
+
+  &__desc-elm {
+    padding: 2px 5px;
+  }
+}

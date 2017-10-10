@@ -1,0 +1,22 @@
+.c-snap-shot {
+  margin: 10px;
+  background-color: #e2e2e2;
+  border-radius: 5px; }
+  .c-snap-shot__link {
+    text-decoration: none;
+    color: black; }
+  .c-snap-shot__img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; }
+  .c-snap-shot__desc-elm {
+    padding: 2px 5px; }
+
+.c-journay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+body {
+  background-color: #414d54; }
+
+/*# sourceMappingURL=main.css.map */
