@@ -23,14 +23,17 @@ class Home extends Component {
     return (
       <div>
         <Journey>
-          {Object.keys(this.props.snaps).map(elm => {
-            return (
-              <SnapShot
-                key={this.props.snaps[elm]['numId']}
-                {...this.props.snaps[elm]}
-              />
-            );
-          })}
+          {Object.keys(this.props.snaps)
+            .sort()
+            .map(elm => {
+              return (
+                <SnapShot
+                  key={this.props.snaps[elm]['numId']}
+                  {...this.props.snaps[elm]}
+                />
+              );
+            })
+          }
         </Journey>
       </div>
     );
